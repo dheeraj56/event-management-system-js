@@ -1,0 +1,244 @@
+main{
+    margin: 0px 100px;
+}
+.search-container {
+    display: flex;
+    width: 42vw;
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.search-segment,
+.location-segment {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+}
+.search-segment input,
+.location-segment input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+}
+.search-segment {
+    flex: 2;
+}
+.location-segment {
+    flex: 1;
+}
+
+.divider {
+    width: 1px;
+    background: #ddd;
+    margin: 8px 0;
+}
+.search-segment i,
+.location-segment i {
+    color: #888;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+nav button{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+nav button:hover{
+    background-color: #bfbebe;
+}
+nav select{
+    border: none;
+}
+.helpCenter{
+    width: 7vw;
+}
+.first{
+    width: 80vw;
+    height: 50vh;
+    margin: 30px 60px;
+}
+.first img{
+    width: 80vw;
+    height: 50vh;
+}
+.second{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.se:hover .se-1{
+    box-shadow: 10px 10px 20px gray ;
+    border-radius: 50px;
+}
+.se:hover .se-2{
+    color: rgb(53, 8, 121);
+}
+.se{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.se-1 img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border: 1px solid #888;
+    border-radius: 50px;
+    padding: 2px;
+}
+.se1{
+    font-size: large;
+}
+.se2 button{
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+}
+.third {
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.cards{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.5s ease-out ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cards img {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    object-fit: cover;
+}
+.cards h5,
+.cards p {
+    padding: 5px 10px;
+    margin: 0;
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px rgb(205, 204, 204);
+}
+
+.img-card {
+    position: relative;
+    display: block;
+    height: 200px;        
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.four{
+    background-color: #f8f7fa;
+    margin: 0px -100px;
+}
+.carousel-title{
+    margin: 0px 100px;
+}
+#eventCarousel{
+    margin: 0px 100px;
+    margin-top: 50px;
+}
+.img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+/* Overlay text */
+.img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Hover effect */
+.img-card:hover img {
+    transform: scale(1.05);
+    transition: transform 0.4s ease;
+}
+
+.img-card:hover .img-overlay {
+    background: rgba(0,0,0,0.75);
+    color: white;
+}
+
+.five{
+    background-color: #f8f7fa;
+    display: flex;
+    flex-direction: column;
+    margin: 0px -100px;
+}
+.five-1{
+    margin: 30px 100px;
+}
+.five-2{
+    margin:0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    gap: 0px 30px;
+}
+.five-21{
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 2px 2px 10px rgb(205, 204, 204);   
+}
+.five-21:hover{
+    cursor: pointer;
+    background-color: lightsteelblue;
+}
+footer{
+    background-color: #1e0a3c;
+
+}
+
+.f1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.f1-col{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.f1-col h5{
+    color: white;
+}
+.f1-col a {
+    text-decoration: none;
+    font-size: 14px;
+}
+.f1-col a:hover{
+    text-decoration: underline;
+    color: white;
+}

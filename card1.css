@@ -1,0 +1,48 @@
+.card1-1 img{
+    height: 400px;
+    width: 50vw;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.card1-2{
+    margin: 100px;
+}
+.over{
+    display: flex;
+    justify-content: space-between;
+
+}
+.over1{
+    width:40vw;
+}
+.high1{
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 20px;
+    width: 20vw;
+}
+.over2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: 80px;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow:  2px 2px 2px 2px grey;
+    position: sticky;
+    top: 80px;
+    z-index: 1000;
+    background: white;
+    
+}
+.over2-2 button{
+    border: none;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 6px;
+}
+.over2-1{
+    line-height: 12px;
+}

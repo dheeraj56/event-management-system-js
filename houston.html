@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newtork</title>
+    <link rel="icon" href="/assets/logo1.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="us_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav>
+    <img src="https://www.eventbrite.com/blog/wp-content/uploads/2025/02/Eventbrite_Hero-Lock-up_Brite-Orange-2048x357.png" alt="" width="120px" height="25px">
+    <div class="search-container">
+    <div class="search-segment">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Search...">
+    </div>
+    <div class="divider"></div>
+    <div class="location-segment">
+        <i class="fa fa-location-dot"></i>
+        <input type="text" placeholder="Location">
+    </div>
+    </div>
+    <button>Find Events</button>
+    <button>Create Events</button>
+    <select id="helpCenter" onchange="goToPage()" class="helpCenter">
+        <option value="" selected disabled>Help Center</option>
+        <option value="help.html">Help Center</option>
+        <option value="tickets.html">Find your tickets</option>
+        <option value="contact.html">Contact your event organizer</option>
+    </select>
+    <button>Find my Tickets</button>
+    <button>Log In</button>
+    <button>Sign Up</button>
+   </nav>
+    <main>
+         <div class="first">
+        <img src="https://cdn.evbstatic.com/s3-build/fe/build/images/470d4637be057dee555575d756daf893-houston_desktop.webp" alt="">
+        <div class="first_1">
+        <h4>Best events in Houston</h4>
+
+        <p>It's always hot in Houston but they do enjoy the seasons - namely rodeo season, crawfish season and year-round J.J. Watt season. Head over to the Washington Ave. Arts District and pop in for open studios at Silver Street. Run the Memorial Park loop or two-step then grab fries at Frenchy's (you earned 'em). Wash down some patio (craft) beers with a kolache then hit one of the events below.</p>
+        </div>
+    </div>
+    <div class="th_head">
+        <h3>Events in  Houston</h3>
+    </div>
+     <div class="third" id="third">
+    </div>
+    </main>
+    <footer>
+    <div class="f1" id="f1">
+    </div>
+   </footer>
+   <script src="app.js"></script>
+   <script src="footer.js"></script>
+</body>
+</html>
