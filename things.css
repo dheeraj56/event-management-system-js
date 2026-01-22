@@ -1,0 +1,25 @@
+.f{
+    display: flex;
+    height: 55vh;
+    margin: 0px -70px;
+}
+.fl{
+    background-color: #1e0a3c;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.fl h4{
+    padding: 20px;
+    color: white;
+
+}
+.fl p{
+    padding: 20px 30px;
+    font-size: medium;
+    color: white;
+}
+.sl img{
+    width: 50vw;
+    height: 50vh;
+}
