@@ -76,7 +76,8 @@ nav select{
     margin-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 25px;
     align-items: center;
     cursor: pointer;
 }
@@ -109,33 +110,37 @@ nav select{
     border-radius: 10px;
 }
 .third {
-    margin: 20px 0px;
+    margin: 20px 60px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 .cards{
-    width: 300px;
+    width: 250px;
     height: auto;
     display: flex;
     flex-direction: column;
-    transition: box-shadow 0.5s ease-out ;
+    transition: box-shadow 0.3s ease-out ;
     border-radius: 20px;
     cursor: pointer;
+    overflow: hidden;
 }
 .cards img {
-    width: 100%;
-    height: 150px;
+    width: 250px;
+    height: 130px;
     border-top-left-radius:20px ;
     border-top-right-radius:20px ;
     object-fit: cover;
 }
-.cards h5,
+.cards h6,
 .cards p {
-    padding: 5px 10px;
+    padding: 8px 12px;
     margin: 0;
 }
 .cards:hover{
+    transform: translateY(-5px);
     box-shadow: 2px 2px 10px rgb(205, 204, 204);
 }
 
@@ -164,7 +169,6 @@ nav select{
     object-fit: cover;   
 }
 
-/* Overlay text */
 .img-overlay {
     position: absolute;
     bottom: 0;
@@ -176,8 +180,6 @@ nav select{
     font-weight: bold;
     font-size: 16px;
 }
-
-/* Hover effect */
 .img-card:hover img {
     transform: scale(1.05);
     transition: transform 0.4s ease;
@@ -187,34 +189,34 @@ nav select{
     background: rgba(0,0,0,0.75);
     color: white;
 }
+.five {
+  background-color: #f8f7fa;
+  margin: 0 -100px;
+  padding: 30px 100px;
+}
 
-.five{
-    background-color: #f8f7fa;
-    display: flex;
-    flex-direction: column;
-    margin: 0px -100px;
+.five-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
-.five-1{
-    margin: 30px 100px;
+
+.five-21 {
+  flex: 1 1 150px;
+  height: auto;
+  padding: 10px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 2px 2px 10px rgb(205, 204, 204);
 }
-.five-2{
-    margin:0px 100px;
-    display: flex;
-    flex-wrap: wrap;
-    height: 200px;
-    gap: 0px 30px;
+
+.five-21:hover {
+  background-color: lightsteelblue;
+  cursor: pointer;
 }
-.five-21{
-    height: 40px;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 14px;
-    box-shadow: 2px 2px 10px rgb(205, 204, 204);   
-}
-.five-21:hover{
-    cursor: pointer;
-    background-color: lightsteelblue;
-}
+
 footer{
     background-color: #1e0a3c;
 
@@ -241,4 +243,38 @@ footer{
 .f1-col a:hover{
     text-decoration: underline;
     color: white;
+} 
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  nav button,
+  nav select {
+    width: 100%;
+  }
+
+  .first img {
+    height: auto;
+  }
+} 
+
+@media (max-width: 480px) {
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .cards img {
+    height: 130px;
+  }
 }
