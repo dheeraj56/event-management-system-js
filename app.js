@@ -80,7 +80,7 @@ let data = [
         img:"assets/card5.jpg",
         description:"Women in Tech Hyderabad - OutGeekWomen",
         date:"Wed, Nov 11 • 6:00 PM",
-        loc:"Wed, Nov 11 • 6:00 PM",
+        loc:"",
         price:"Free",
         link:"card5.html"
 
@@ -192,6 +192,23 @@ function goToPage() {
         window.location.href = value;
     }
 }
+
+let login = document.getElementById('login')
+if (login) {
+    login.addEventListener('click', () => {
+        window.location.href = 'login.html';
+    });
+}
+
+
+let signup = document.getElementById('signup')
+if (signup) {
+    signup.addEventListener('click', () => {
+        window.location.href = 'register.html';
+    });
+}
+
+
 let second = document.getElementById("second");
 function category(events){
     second.innerHTML = '' ;
@@ -226,7 +243,7 @@ function cards_data(data){
         return  `
             <div class = "cards" onclick="goCategory_cards('${card.link}')">
             <img src="${card.img}">
-            <h5>${card.description}</h5>
+            <h6>${card.description}</h6>
             <p>${card.date}</p>
             <p>${card.price}</p>
             </div>
@@ -240,6 +257,17 @@ if (cards) {
 function goCategory_cards(link) {
     window.open(link,'_blank')
 }
+
+let findEventsBtn = document.getElementById("findEventsBtn");
+if (findEventsBtn && cards) {
+    findEventsBtn.addEventListener("click", () => {
+        cards.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    });
+}
+
 
 function filterD(category) {
     let search = category.toLowerCase();
@@ -317,7 +345,7 @@ for (let i = 0; i < carouselData.length; i += ITEMS_PER_SLIDE) {
   indicators.appendChild(indicator);
 }
 let locations = [
-    {name:"Things to do in Austin"         ,link:"austin.html"             },
+    {name:"Things to do in Austin"         ,link:"austin.html" },
     { name: "Things to do in Abilene"      ,link:"Abilene.html"},
     { name: "Things to do in Denver"       ,link:"Denver.html"},
     { name: "Things to do in Seattle"      ,link:"Seattle.html"},
