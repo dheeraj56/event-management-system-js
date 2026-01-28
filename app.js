@@ -1,48 +1,48 @@
 let events = [
     {
-        logo:"assets/mic.png",
+        logo:"./assets/mic.png",
         name:"Music",
         link: "music.html" 
     },
     {
-        logo:"assets/night.jpg",
+        logo:"./assets/night.jpg",
         name:"Nightlife",
         link: "nightlife.html" 
     },
     {
-        logo:"assets/art.png",
+        logo:"./assets/art.png",
         name:"Performing & Visual Arts",
         link: "arts.html" 
     },
     {
-        logo:"assets/holiday.jpg",
+        logo:"./assets/holiday.jpg",
         name:"Holidays",
         link: "holidays.html" 
     },
     {
-        logo:"assets/dating.png",
+        logo:"./assets/dating.png",
         name:"Dating",
         link: "dating.html" 
     },
     {
-        logo:"assets/games.png",
+        logo:"./assets/games.png",
         name:"Hobbies",
         link: "hobbies.html" 
     },
     {
-        logo:"assets/business.png",
+        logo:"./assets/business.png",
         name:"Business",
         link: "business.html" 
     },
     {
-        logo:"assets/food.png",
+        logo:"./assets/food.png",
         name:"Food & Drinks",
         link: "food.html" 
     },
 ]
 let data = [
     {
-        img:"assets/card1.jpg",
+        img:"./assets/card1.jpg",
         description:"How to Stop Procrastinating in 30 Days - January 13th/ 8PM EST",
         date:"Wednesday • 6:30 AM GMT+5:30",
         loc:"",
@@ -50,7 +50,7 @@ let data = [
         link:"card1.html"
 
     },
-    {   img:"assets/card2.jpg",
+    {   img:"./assets/card2.jpg",
         description:"Masterclass on achieving financial freedom for working professionals",
         date:"Sat, Jan 24 • 2:00 PM",
         loc:"Starbucks",
@@ -59,7 +59,7 @@ let data = [
 
     },
     {
-        img:"assets/card3.jpg",
+        img:"./assets/card3.jpg",
         description:"Join Biggest Community | Investors Founders | Hyderabad | Online",
         date:"Wed, Jan 21 • 12:30 PM",
         loc:"Hyderabad",
@@ -68,7 +68,7 @@ let data = [
 
     },
     {
-        img:"assets/card4.jpg",
+        img:"./assets/card4.jpg",
         description:"Spiritual Women Entrepreneurs Networking VIRTUAL",
         date:"Thu, May 7 • 9:30 PM GMT+5:30",
         loc:"",
@@ -77,7 +77,7 @@ let data = [
 
     },
     {
-        img:"assets/card5.jpg",
+        img:"./assets/card5.jpg",
         description:"Women in Tech Hyderabad - OutGeekWomen",
         date:"Wed, Nov 11 • 6:00 PM",
         loc:"",
@@ -86,7 +86,7 @@ let data = [
 
     },
     {
-        img:"assets/card6.jpg",
+        img:"./assets/card6.jpg",
         description:"DATACENTRE INNOVATION SERIES - INDIA",
         date:"Wed, Feb 4 • 9:00 AM",
         loc:"THE PARK HYDERABAD",
@@ -95,7 +95,7 @@ let data = [
 
     },
     {
-        img:"assets/card7.jpg",
+        img:"./assets/card7.jpg",
         description:"Start the Year with a new direction: Workshop for Working Professionals",
         date:"Today • 6:00 PM",
         loc:"Starbucks",
@@ -104,7 +104,7 @@ let data = [
 
     },
     {
-        img:"assets/card8.jpg",
+        img:"./assets/card8.jpg",
         description:"Test Automation Summit | Hyderabad| 2026",
         date:"Thu, Feb 26 • 9:00 AM",
         loc:"TBD",
@@ -113,7 +113,7 @@ let data = [
 
     },
     {
-        img:"assets/card9.jpg",
+        img:"./assets/card9.jpg",
         description:"Online Improv Class For Beginners And Non-Actors",
         date:"Wed, Jan 21 • 6:30 AM GMT+5:30",
         loc:"",
@@ -122,7 +122,7 @@ let data = [
 
     },
     {
-        img:"assets/card10.jpg",
+        img:"./assets/card10.jpg",
         description:"Meet the Royal College of Art in Hyderabad",
         date:"Sat, Feb 7 • 5:00 PM",
         loc:"Taj Deccan, Hyderabad",
@@ -131,7 +131,7 @@ let data = [
 
     },
     {
-        img:"assets/card11.jpg",
+        img:"./assets/card11.jpg",
         description:"A Practical Masterclass on Financial Growth for Working Professionals",
         date:"Today • 6:00 PM",
         loc:"Starbucks",
@@ -140,7 +140,7 @@ let data = [
 
     },
     {
-        img:"assets/card12.jpg",
+        img:"./assets/card12.jpg",
         description:"PGP YL Insights: Programme Infosession in Hyderabad",
         date:"Sun, Jan 18 • 3:00 PM",
         loc:"ISB Campus, Khemka Auditorium",
@@ -149,7 +149,7 @@ let data = [
 
     },
     {
-        img:"assets/card13.jpg",
+        img:"./assets/card13.jpg",
         description:"Hyderabad's Biggest Business & Tech Professional Networking Soiree",
         date:"Wed, Mar 18 • 6:00 PM",
         loc:"Taj Krishna, Hyderabad",
@@ -158,7 +158,7 @@ let data = [
 
     },
     {
-        img:"assets/card14.jpg",
+        img:"./assets/card14.jpg",
         description:"Cloud Data Engineer GCP Cloud Data",
         date:"Mon, Jan 26 • 10:00 AM",
         loc:"Quality Thought",
@@ -167,7 +167,7 @@ let data = [
 
     },
     {
-        img:"assets/card15.jpg",
+        img:"./assets/card15.jpg",
         description:"NUS-ISS Graduate Programmes: Preview, Entrance Test & Interview: HYDERABAD",
         date:"Tue, Mar 10 • 9:00 AM",
         loc:"Red Fox Hotel, Hyderabad",
@@ -176,7 +176,7 @@ let data = [
 
     },
     {
-        img:"assets/card16.jpg",
+        img:"./assets/card16.jpg",
         description:"The Mind Upgrade: Pressure Won’t Wait, Neither Should Clarity",
         date:"Sat, Feb 21 • 6:00 PM",
         loc:"Avasa",
@@ -379,6 +379,7 @@ if (loc) {
 function goLocation(link) {
     window.open(link,'_blank')
 }
+
 
 
 
