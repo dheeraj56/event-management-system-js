@@ -288,21 +288,21 @@ function filterD(category) {
 }
 
 const carouselData = [
-  { img: "/assets/img1.jpg", text: "New York",link:"newyork.html" },
-  { img: "/assets/img2.jpg", text: "Los Angeles",link:"losangeles.html" },
-  { img: "/assets/img3.jpg", text: "Chicago",link:"chicago.html" },
-  { img: "/assets/img4.jpg", text: "Washington",link:"washington.html" },
-  { img: "/assets/img5.jpg", text: "Atlanta",link:"atlanta.html" },
-  { img: "/assets/img6.jpg", text: "Dallas",link:"dallas.html" },
-  { img: "/assets/img7.jpg", text: "Houston",link:"houston.html" },
-  { img: "/assets/img8.jpg", text: "San Fransisco",link:"sanfrans.html" },
-  { img: "/assets/img9.jpg", text: "Miami",link:"miami.html" },
-  { img: "/assets/img10.jpg", text: "Boston",link:"boston.html" },
-  { img: "/assets/img11.jpg", text: "Las Vegas",link:"lasvegas.html" },
-  { img: "/assets/img12.jpg", text: "Charlotte",link:"charlotte.html" },
-  { img: "/assets/img13.jpg", text: "Orlando" ,link:"orlando.html"},
-  { img: "/assets/img14.jpg", text: "Philadelphia",link:"phil.html" },
-  { img: "/assets/img15.jpg", text: "San Diego",link:"sandiego.html" }
+  { img: "assets/img1.jpg", text: "New York",link:"newyork.html" },
+  { img: "assets/img2.jpg", text: "Los Angeles",link:"losangeles.html" },
+  { img: "assets/img3.jpg", text: "Chicago",link:"chicago.html" },
+  { img: "assets/img4.jpg", text: "Washington",link:"washington.html" },
+  { img: "assets/img5.jpg", text: "Atlanta",link:"atlanta.html" },
+  { img: "assets/img6.jpg", text: "Dallas",link:"dallas.html" },
+  { img: "assets/img7.jpg", text: "Houston",link:"houston.html" },
+  { img: "assets/img8.jpg", text: "San Fransisco",link:"sanfrans.html" },
+  { img: "assets/img9.jpg", text: "Miami",link:"miami.html" },
+  { img: "assets/img10.jpg", text: "Boston",link:"boston.html" },
+  { img: "assets/img11.jpg", text: "Las Vegas",link:"lasvegas.html" },
+  { img: "assets/img12.jpg", text: "Charlotte",link:"charlotte.html" },
+  { img: "assets/img13.jpg", text: "Orlando" ,link:"orlando.html"},
+  { img: "assets/img14.jpg", text: "Philadelphia",link:"phil.html" },
+  { img: "assets/img15.jpg", text: "San Diego",link:"sandiego.html" }
 ];
 
 const carouselInner = document.getElementById("carouselInner");
@@ -379,6 +379,7 @@ if (loc) {
 function goLocation(link) {
     window.open(link,'_blank')
 }
+
 
 
 
