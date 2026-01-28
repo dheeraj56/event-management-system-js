@@ -1,0 +1,32 @@
+
+body{
+
+    background: linear-gradient(135deg, #2b1055, #7597de);
+}
+.f{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45vh;
+    margin: 0px -100px;
+}
+.fl{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+}
+.fl h1{
+    padding: 20px;
+    color: lightcoral;
+
+}
+.fl p{
+    padding: 20px 30px;
+    font-size: large;
+    color: black;
+}
+.sl img{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+}
