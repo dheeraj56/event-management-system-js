@@ -8,7 +8,8 @@ const users = [
   { name: "Vikram", password: "Vikram@147" },
   { name: "Neha", password: "Neha#258" },
   { name: "Suresh", password: "Suresh$369" },
-  { name: "Pooja", password: "Pooja@159" }
+  { name: "Pooja", password: "Pooja@159" },
+  { name: "", password: "" }
   
 ];
 
@@ -30,4 +31,3 @@ loginBtn.addEventListener("click", () => {
     message.style.color = "red";
   }
 });
-
